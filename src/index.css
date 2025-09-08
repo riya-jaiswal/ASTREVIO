@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+.primary-button {
+  @apply bg-[#1F1F1F] text-white font-semibold hover:bg-[#F1F1F1] hover:text-[#464646] text-base  py-2.5 px-6 transition-all duration-300    flex justify-center items-center cursor-pointer;
+}
+
+.font-1 {
+  font-family: "Inter";
+}
+
+.heading-1 {
+  @apply font-medium text-6xl text-[#1F1F1F];
+}
+
+.paragraph-1 {
+  @apply font-medium text-base text-[#545454];
+}

@@ -1,0 +1,6 @@
+# Let Google read robots.txt and sitemap.xml directly
+/robots.txt   /robots.txt   200
+/sitemap.xml  /sitemap.xml  200
+
+# SPA fallback for React
+/*  /index.html  200
