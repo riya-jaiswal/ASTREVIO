@@ -2,7 +2,7 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Logo from "../assets/logo/Logo1.png";
+import Logo from "";
 import {
   faFacebook,
   faInstagram,
@@ -101,8 +101,8 @@ function Footer() {
         <div className="space-y-6 flex-3">
           <img src={Logo} alt="Logo" />
           <p className="text-[#D1D1D1] max-w-xs">
-            Abtik digital your premier destination for luxury and modern
-            interior design
+            {/* Abtik digital your premier destination for luxury and modern
+            interior design */}
           </p>
           <div className="flex gap-2">
             <button className="bg-[#313131] p-1 cursor-pointer">
@@ -154,13 +154,13 @@ function Footer() {
           <h2 className="text-xl font-1 font-semibold text-white">Contact </h2>
           <div className="space-y-3">
             <a className="text-[#D1D1D1] transition-all duration-300 hover:underline cursor-pointer hover:text-gray-400 font-1 text-base block">
-              abc@.com
+              subhrash2@gmail.com
             </a>
             <a className="text-[#D1D1D1] transition-all duration-300 hover:underline cursor-pointer hover:text-gray-400 font-1 text-base block">
-              +91 00 000 000
+              +91 7003 1701 77
             </a>
             <a className="text-[#D1D1D1] transition-all duration-300 hover:underline cursor-pointer hover:text-gray-400 font-1 text-base block">
-              Design Avenue Cityville, CA 90210 United States
+              18(61), Santoshpur East Road, Kolkata -700075, West Bengal, India.
             </a>
           </div>
         </div>
